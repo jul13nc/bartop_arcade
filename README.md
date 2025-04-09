@@ -64,6 +64,15 @@ Il est possible (et recommandé) de venir peindre à la bombe le tour de l'écra
 
 ## Raccordement de l'amplificateur
 
+L'amplificateur doit être raccordé à l'alimentation (12V dans mon cas, vérifiez les caractéristiques du votre).
+J'ai ensuite soudés 2 cables audio sur les Haut parleurs, et raccordé ces cables à l'amplificateur. 
+
+Un trou en façade du panneau inférieur permet le réglage du volume, et l'amplificateur est vissé à une petite plaque de CP elle-même vissée à une équerre sur le panneau intérieur.
+
 ## Raccordement de l'alimentation
 
+
+
 ## Installation de l'OS
+
+L'OS choisi est Batocera. Il est disponible ici : https://batocera.org/
