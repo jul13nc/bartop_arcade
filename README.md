@@ -41,9 +41,26 @@ Là encore, si vous n'avez pas de fraise à copier, utilisez des limes et du pap
 
 Il est très important que les deux côtés soient strictement identiques, sans quoi votre borne ne sera jamais droite.
 
+### Découpe des autres éléments
 
+Les autres éléments sont plus simples à découper, ce sont basiquement des rectangles.
+Suivre les plans fournis, en faisant attention de bien découper des rectangles (côtés // et angles à 90°)
+
+### Perçage des boutons
+
+Concernant le perçage des boutons, la précision est de rigueur.
+Personnellement, je me suis basé sur les stickers pour positionner les boutons au bon endroit. Dérouler le sticker à sa future place sans le coller, repérer les centres des cercles (une impression de cercle à la bonne dimension avec une croix au centre peut aider), et marquer le centre avec un pointeau à travers le sticker.
+Une fois les centres marqués, et en fonction de vos boutons, 1 ou 2 perçages seront nécessaires. Avec mes boutons, un premier perçage à 28 sur 4mm de profond suivi d'un perçage à 25 sur le reste de l'épaisseur de la planche.
+
+A répéter pour tous les boutons, pour le joystick, un perçage à 25 a suffit s.
 
 ## Installation de l'écran
+
+Fabriquer un support VESA composé d'une planche de bois que l'on viendra visser sur 2 support collés à l'intérieur des 2 côtés de la borne.
+Une fois le support VESA réalisé et vissé à l'écran, mesurer l'épaisseur complète écran+support pour venir positionner les support sur les côtés, et les coller en place.
+Une fois bien sec, venir visser le support d'écran en place.
+
+Il est possible (et recommandé) de venir peindre à la bombe le tour de l'écran en noir, afin de le rendre discret dans la borne terminée.
 
 ## Raccordement de l'amplificateur
 
