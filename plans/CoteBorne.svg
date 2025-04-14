@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1049"
+   width="1888.96"
+   height="2522.6934"
+   viewBox="0 0 1888.96 2522.6934"
+   sodipodi:docname="gabarit-19p-bartop-vinyle-classic-print-6b-OK-2024-1.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1053">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1063">
+      <path
+         d="M 0,1892.023 H 1416.715 V 0 H 0 Z"
+         id="path1061" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview1051"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.33852707"
+     inkscape:cx="1022.0748"
+     inkscape:cy="971.85728"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1059" />
+  <g
+     id="g1055"
+     inkscape:groupmode="layer"
+     inkscape:label="gabarit-19p-bartop-vinyle-classic-print-6b-OK-2024-1"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,2522.6933)">
+    <g
+       id="g1057">
+      <g
+         id="g1059"
+         clip-path="url(#clipPath1063)">
+        <g
+           id="g1069"
+           transform="translate(148.7758,55.5742)">
+          <path
+             d="m 0,0 -134.432,1536.561 c -1.661,18.994 8.734,37 26.015,45.058 v 0 l 506.959,236.399 c 3.31,1.544 6.794,2.681 10.377,3.389 24.573,4.855 48.43,-11.13 53.285,-35.703 20.871,-105.639 70.006,-203.638 142.171,-283.559 10.38,-11.495 14.176,-27.493 10.067,-42.426 -96.776,-351.748 -38.313,-728.099 160.609,-1033.912 25.695,-39.503 66.628,-66.575 113.037,-74.758 l 328.179,-57.866 c 0.663,-0.118 1.324,-0.249 1.983,-0.396 24.449,-5.444 39.855,-29.679 34.411,-54.128 -16.528,-74.218 -17.153,-151.093 -1.835,-225.569 0.618,-3.007 0.93,-6.068 0.93,-9.137 0,-25.049 -20.306,-45.354 -45.355,-45.354 H 45.182 C 21.665,-41.401 2.05,-23.427 0,0 Z"
+             style="fill:none;stroke:#ec008c;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path1071" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
