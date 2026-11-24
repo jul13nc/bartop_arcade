@@ -1,0 +1,22 @@
+{
+  "version": "44",
+  "image_size_bytes": 14000000000,
+  "language": "fr_FR",
+  "theme_colorset": "orange",
+  "roms": "roms",
+  "bios": "bios",
+  "boot_logo": "splash/boot-logo.png",
+  "splash_video": "splash/intro.mp4",
+  "es_splash": "splash/es-loading.png",
+  "output_dir": "output",
+  "images": {
+    "x86_64": {
+      "path": "base/batocera-x86_64-44.img.gz",
+      "sha256": ""
+    },
+    "rpi3": {
+      "path": "base/batocera-rpi3-44.img.gz",
+      "sha256": ""
+    }
+  }
+}
