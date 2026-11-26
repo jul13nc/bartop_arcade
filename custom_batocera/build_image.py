@@ -186,7 +186,7 @@ def customize(root, share, profile, paths):
 def build(arch, profile, paths):
     output = paths["output_dir"]
     output.mkdir(parents=True, exist_ok=True)
-    name = f"batocera-{arch}-{profile['version']}-custom.img.gz"
+    name = f"batocera-{arch}-{profile['version']}-custom.img"
     final = output / name
     if final.exists() or (output / (name + ".manifest.json")).exists():
         raise ValueError(f"Sortie existante : {final}. Déplacer avant régénération.")
@@ -258,20 +258,17 @@ def build(arch, profile, paths):
         run("e2fsck", "-f", "-p", share_device, accepted=(0, 1))
         run("losetup", "-d", loop)
         loop = None
-        print(f"[{arch}] Compression finale", flush=True)
-        compressed = work / name
-        with image.open("rb") as source, compressed.open("wb") as target:
-            with gzip.GzipFile(filename="", mode="wb", compresslevel=6, fileobj=target, mtime=0) as gz:
-                shutil.copyfileobj(source, gz, 8 * 1024 * 1024)
+        print(f"[{arch}] Finalisation", flush=True)
+        os.sync()
         manifest = {
             "architecture": arch, "batocera_version": version, "profile": profile,
             "base_sha256": profile["images"][arch]["sha256"],
             "image_size_bytes": image.stat().st_size,
-            "output_sha256": digest(compressed),
+            "output_sha256": digest(image),
             "assets_sha256": {key: digest(paths[key]) for key in
                               ("boot_logo", "splash_video", "es_splash")},
         }
-        compressed.rename(final)
+        image.rename(final)
         (output / (name + ".manifest.json")).write_text(
             json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
         print(f"Image prête : {final}", flush=True)

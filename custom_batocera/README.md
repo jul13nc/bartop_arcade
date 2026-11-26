@@ -65,8 +65,8 @@ sudo python3 build_image.py --arch rpi3
 Sorties :
 
 ```text
-output/batocera-x86_64-44-custom.img.gz
-output/batocera-rpi3-44-custom.img.gz
+output/batocera-x86_64-44-custom.img
+output/batocera-rpi3-44-custom.img
 ```
 
 Chaque sortie possède un manifeste JSON avec profil, version, empreinte base,
