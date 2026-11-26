@@ -6,17 +6,17 @@
   "roms": "roms",
   "bios": "bios",
   "boot_logo": "splash/boot-logo.png",
-  "splash_video": "splash/intro.mp4",
-  "es_splash": "splash/es-loading.png",
+  "splash_video": "splash/splash.mp4",
+  "es_splash": "splash/boot-logo.png",
   "output_dir": "output",
   "images": {
     "x86_64": {
-      "path": "base/batocera-x86_64-44.img.gz",
-      "sha256": ""
+      "path": "base/batocera-x86_64-44-20261116.img.gz",
+      "sha256": "b295e6209762b8115837a8169058a3ce5f8bded63e7ec55e730dbc8ff202823e"
     },
     "rpi3": {
-      "path": "base/batocera-rpi3-44.img.gz",
-      "sha256": ""
+      "path": "base/batocera-bcm2836-44-20261117.img.gz",
+      "sha256": "a92fe98559c3f32f4b765bc6c3894665f544aa9b230cfa2ba70e0098fc953d06"
     }
   }
 }
